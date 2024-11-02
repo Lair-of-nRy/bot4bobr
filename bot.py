@@ -6,8 +6,8 @@ from aiogram.types import Message, BotCommand
 from aiogram.filters import Command
 from aiogram.fsm.storage.memory import MemoryStorage
 
-TELEGRAM_TOKEN = '7355795776:AAGz_PTJYeyZ7SMj-DU5BTsHdpxd0vLaDm0'
-WEATHER_API_KEY = 'e2ca592dcbab5c53c1e417c28004783f'
+TELEGRAM_TOKEN = ''
+WEATHER_API_KEY = ''
 WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
